@@ -1,0 +1,52 @@
+
+rjavascript:S1764"JCorrect one of the identical sub-expressions on both sides of operator "-"(º»Òþúÿÿÿÿ8òË¶Á†1
+mjavascript:S1764"JCorrect one of the identical sub-expressions on both sides of operator "/"(·˜Èƒ8óË¶Á†1
+njavascript:S1764g"KCorrect one of the identical sub-expressions on both sides of operator "=="(Ù•â¨8óË¶Á†1
+Yjavascript:S1125j"6Refactor the code to avoid using this boolean literal.(ø±ñÃ8ôË¶Á†1
+^javascript:S1125k"6Refactor the code to avoid using this boolean literal.(èºéÑÿÿÿÿÿ8ôË¶Á†1
+^javascript:S1125l"6Refactor the code to avoid using this boolean literal.(ÔÝâõþÿÿÿÿ8ôË¶Á†1
+tjavascript:S1764n"LCorrect one of the identical sub-expressions on both sides of operator "==="(ÔÒÞüÿÿÿÿ8ôË¶Á†1
+sjavascript:S3403o"KRemove this "===" check; it will always be false. Did you mean to use "=="?(´ÞÈþÿÿÿÿÿ8õË¶Á†1
+mjavascript:S3403p"KRemove this "===" check; it will always be false. Did you mean to use "=="?(ÂèôI8õË¶Á†1
+sjavascript:S3403q"KRemove this "===" check; it will always be false. Did you mean to use "=="?(½èð·ùÿÿÿÿ8õË¶Á†1
+sjavascript:S3403r"KRemove this "===" check; it will always be false. Did you mean to use "=="?(È¢Óþÿÿÿÿ8öË¶Á†1
+njavascript:S3403s"KRemove this "===" check; it will always be false. Did you mean to use "=="?(ççé¤8öË¶Á†1
+njavascript:S1764u"KCorrect one of the identical sub-expressions on both sides of operator "!="(¢¢Îâ8öË¶Á†1
+Yjavascript:S1125x"6Refactor the code to avoid using this boolean literal.(”ÓäÖ8÷Ë¶Á†1
+Xjavascript:S1125y"6Refactor the code to avoid using this boolean literal.(“â’o8÷Ë¶Á†1
+Yjavascript:S1125z"6Refactor the code to avoid using this boolean literal.(ñÝôË8÷Ë¶Á†1
+ojavascript:S1764|"LCorrect one of the identical sub-expressions on both sides of operator "!=="(ŠÊ•ì8÷Ë¶Á†1
+rjavascript:S3403}"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(¯‡—Áøÿÿÿÿ8÷Ë¶Á†1
+mjavascript:S3403~"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(Û„Žü8øË¶Á†1
+mjavascript:S3403"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(¸ª†é8øË¶Á†1
+sjavascript:S3403€"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(ÛðÞ§üÿÿÿÿ8ùË¶Á†1
+sjavascript:S3403"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(ù¤õŽüÿÿÿÿ8ùË¶Á†1
+_javascript:S1125›"6Refactor the code to avoid using this boolean literal.(÷ªÚÍøÿÿÿÿ8ùË¶Á†1
+tjavascript:S1764›"KCorrect one of the identical sub-expressions on both sides of operator "&&"(÷ªÚÍøÿÿÿÿ8úË¶Á†1
+_javascript:S1125›"6Refactor the code to avoid using this boolean literal.(÷ªÚÍøÿÿÿÿ8úË¶Á†1
+_javascript:S1125œ"6Refactor the code to avoid using this boolean literal.(ðžùŸøÿÿÿÿ8úË¶Á†1
+_javascript:S1125œ"6Refactor the code to avoid using this boolean literal.(ðžùŸøÿÿÿÿ8úË¶Á†1
+_javascript:S1125"6Refactor the code to avoid using this boolean literal.(Äéîøÿÿÿÿ8úË¶Á†1
+_javascript:S1125"6Refactor the code to avoid using this boolean literal.(Äéîøÿÿÿÿ8úË¶Á†1
+_javascript:S1125ž"6Refactor the code to avoid using this boolean literal.(òå…þÿÿÿÿ8úË¶Á†1
+tjavascript:S1764ž"KCorrect one of the identical sub-expressions on both sides of operator "&&"(òå…þÿÿÿÿ8ûË¶Á†1
+_javascript:S1125ž"6Refactor the code to avoid using this boolean literal.(òå…þÿÿÿÿ8ûË¶Á†1
+Zjavascript:S1125¡"6Refactor the code to avoid using this boolean literal.(î¾È8ûË¶Á†1
+ojavascript:S1764¡"KCorrect one of the identical sub-expressions on both sides of operator "||"(î¾È8ûË¶Á†1
+_javascript:S1125¢"6Refactor the code to avoid using this boolean literal.(§ì×úüÿÿÿÿ8ûË¶Á†1
+Zjavascript:S1125£"6Refactor the code to avoid using this boolean literal.(†ýš³8ûË¶Á†1
+_javascript:S1125¤"6Refactor the code to avoid using this boolean literal.(’é®ëÿÿÿÿÿ8üË¶Á†1
+tjavascript:S1764¤"KCorrect one of the identical sub-expressions on both sides of operator "||"(’é®ëÿÿÿÿÿ8üË¶Á†1
+Zjavascript:S1125»"6Refactor the code to avoid using this boolean literal.(’›ÙÛ8üË¶Á†1
+_javascript:S1125¼"6Refactor the code to avoid using this boolean literal.(›¯šñúÿÿÿÿ8üË¶Á†1
+_javascript:S1125½"6Refactor the code to avoid using this boolean literal.(’Ï¹øûÿÿÿÿ8üË¶Á†1
+Zjavascript:S1125¾"6Refactor the code to avoid using this boolean literal.(Ë¯¦´8üË¶Á†1
+Zjavascript:S1125¿"6Refactor the code to avoid using this boolean literal.(÷–æÉ8ýË¶Á†1
+ojavascript:S1764¿"KCorrect one of the identical sub-expressions on both sides of operator "&&"(÷–æÉ8ýË¶Á†1
+Zjavascript:S1125¿"6Refactor the code to avoid using this boolean literal.(÷–æÉ8ýË¶Á†1
+Zjavascript:S1125À"6Refactor the code to avoid using this boolean literal.(’‘¡ˆ8ýË¶Á†1
+Zjavascript:S1125À"6Refactor the code to avoid using this boolean literal.(’‘¡ˆ8ýË¶Á†1
+>javascript:S1874Î"'name' is deprecated.(¨ßø¦ûÿÿÿÿ8ýË¶Á†1
+9javascript:S1874Ð"'name' is deprecated.(á·³°8ýË¶Á†1
+9javascript:S1874Ð"'name' is deprecated.(á·³°8ýË¶Á†1
+>javascript:S1874Ñ"'name' is deprecated.(¨ßø¦ûÿÿÿÿ8ýË¶Á†1
