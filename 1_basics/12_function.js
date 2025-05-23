@@ -32,11 +32,11 @@ calculate(4);
 calculate(4);
 calculate(5);
 
-function multiply(x,y = 10){
+function multiply(x, y = 10) {
     console.log(x * y);
 }
 
-multiply(2,4);
+multiply(2, 4);
 multiply(2);
 console.log('--------------');
 
@@ -45,25 +45,25 @@ console.log('--------------');
  * return 받기
  */
 
-function multiply(x,y){
+function multiply(x, y) {
     return x * y;
 }
-const result1 = multiply(2,4);
+const result1 = multiply(2, 4);
 console.log(result1);
 
-const result2 = multiply(4,5);
+const result2 = multiply(4, 5);
 console.log(result2);
 
 /**
  * Arrow 함수
  */
-const multiply2 = (x,y) => {
+const multiply2 = (x, y) => {
     return x * y;
 }
-console.log(multiply2(3,4));
+console.log(multiply2(3, 4));
 
-const multiply3 = (x,y) => x * y;
-console.log(multiply3(4,5));
+const multiply3 = (x, y) => x * y;
+console.log(multiply3(4, 5));
 
 const multiply4 = (x) => x * 2;
 console.log(multiply4(2));
@@ -71,40 +71,41 @@ console.log(multiply4(2));
 const multiply5 = x => y => z => `x: ${x} y: ${y} z:${z}`;
 console.log(multiply5(2)(5)(7));
 
-function multiply6(x){
-    return function(y){
-        return function(z){
+function multiply6(x) {
+    return function (y) {
+        return function (z) {
             return `x: ${x} y: ${y} z:${z}`;
         }
     }
 }
 console.log(multiply6(3)(4)(5));
 
-const multiplyTwo = function (x,y) {
+const multiplyTwo = function (x, y) {
     return x * y;
 }
-console.log(multiplyTwo(4,5));
+console.log(multiplyTwo(4, 5));
 
-const multiplyThree = function(x, y, z) {
+const multiplyThree = function (x, y, z) {
     console.log(arguments);
     return x * y * z;
 }
 console.log('--------------');
-console.log(multiplyThree(4,5,6));
+console.log(multiplyThree(4, 5, 6));
 
+// ...arguments는 함수 호출 시 전달된 모든 인자를 배열 형태로 arguments라는 이름의 변수에 저장한다.
 const multiplyAll = function (...arguments) {
-    return Object.values(arguments).reduce((a,b) => a*b,1);
+    return Object.values(arguments).reduce((a, b) => a * b, 1);
 }
 
-console.log(multiplyAll(3,4,5,6,7,8,9,10));
+console.log(multiplyAll(3, 4, 5, 6, 7, 8, 9, 10));
 
 // -> 받은 arguments를 모두 곱합.
 
 
 // immediately invoked function -> 만드면서 실행.
-(function (x,y) {
+(function (x, y) {
     console.log(x * y);
-})(4,5)
+})(4, 5)
 
 console.log(typeof multiply);
 console.log(multiply instanceof Object);

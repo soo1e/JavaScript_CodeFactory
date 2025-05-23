@@ -51,6 +51,7 @@ console.log(iveMembers);
 console.log('--------------');
 
 // concat() : 새로운 값을 맨 뒤에 추가하여 새로운 array 생성.
+console.log('concat()');
 console.log(iveMembers.concat('코드팩토리'));
 console.log(iveMembers);
 console.log('--------------');
@@ -61,6 +62,7 @@ console.log(iveMembers);
 console.log('--------------');
 
 // spread operator -> 모든 값들이 펼쳐져서 저장
+console.log('spread operator');
 let iveMembers2 = [
     ...iveMembers,
 ];
@@ -121,7 +123,8 @@ console.log(numbers);
 
 console.log('--------------');
 
-// map()
+// map() -> 자바스크립트에서 map() 함수는 배열의 모든 요소에 어떤 작업(함수)을 적용한 후, 그 결과를 모아서 새 배열을 만드는 함수
+console.log('map()');
 console.log(iveMembers.map((x) => x));
 console.log(iveMembers.map((x) => `아이브 : ${x}`));
 
@@ -141,8 +144,14 @@ console.log(numbers.filter((x) => x % 2 === 0));
 // find() : 가장 첫번째로 해당되는 값 반환
 console.log(numbers.find((x) => x % 2 === 0))
 
-// find() : 가장 첫번째로 해당되는 값의 인덱스를 반환
+// findIndex() : 가장 첫번째로 해당되는 값의 인덱스를 반환
 console.log(numbers.findIndex((x) => x % 2 === 0))
 
-// reduce() :
+// reduce() : 모든 값을 더해서 하나의 값으로 만들어줌.
 console.log(numbers.reduce((p,n) => p+n ,0));
+
+// every() : 모든 값이 조건에 맞는지 확인
+console.log(numbers.every((x) => x % 2 === 0));
+
+// some() : 하나라도 조건에 맞는지 확인
+console.log(numbers.some((x) => x % 2 === 0));

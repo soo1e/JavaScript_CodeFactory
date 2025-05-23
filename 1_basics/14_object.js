@@ -37,6 +37,7 @@ const yuJin2 = {
 console.log(yuJin2);
 console.log(yuJin2.dance());
 
+console.log('--------------');
 yuJin2['group'] = '코드팩토리';
 console.log(yuJin2);
 
@@ -53,6 +54,7 @@ console.log(yuJin2);
  * 2) 객체 안의 프로퍼티나 메서드는 변경 할 수 있다.
  */
 
+console.log('--------------');
 const wonYoung = {
     name : '장원영',
     group : '아이브',
@@ -61,15 +63,18 @@ console.log(wonYoung);
 
 wonYoung['group'] = '코드팩토리';
 console.log(wonYoung);
+console.log('--------------');
 
 /**
  * 모든 키 값 가져오기
  */
+console.log('Object.keys(wonYoung)');
 console.log(Object.keys(wonYoung));
 
 /**
  * 모든 밸류값 다 가져오기
  */
+console.log('Object.values(wonYoung)');
 console.log(Object.values(wonYoung));
 
 const name = '안유진';

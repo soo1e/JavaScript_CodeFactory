@@ -4,16 +4,16 @@
  * 1) for
  * 2) while
  */
-for(let i = 0; i<10; i++){
+for (let i = 0; i < 10; i++) {
     console.log(i);
 }
 console.log('--------------');
-for(let i = 10; i>0; i--){
+for (let i = 10; i > 0; i--) {
     console.log(i);
 }
 console.log('--------------');
-for (let i = 0 ; i < 3; i++) {
-    for (let j = 3; j > 0; j-- ) {
+for (let i = 0; i < 3; i++) {
+    for (let j = 3; j > 0; j--) {
         console.log(i, j);
     }
 }
@@ -22,7 +22,7 @@ for (let i = 0 ; i < 3; i++) {
 let square = '';
 let side = 6;
 
-for (let i = 0; i< side; i++){
+for (let i = 0; i < side; i++) {
     for (let j = 0; j < side; j++) {
         square += '*';
     }
@@ -35,13 +35,13 @@ console.log(square);
  * for...in : 인덱스 값
  */
 const yuJin = {
-    name : '안유진',
-    year : 2003,
-    group : '아이브',
+    name: '안유진',
+    year: 2003,
+    group: '아이브',
 }
 console.log('--------------');
 
-for(let key in yuJin){
+for (let key in yuJin) {
     console.log(key);
 }
 
@@ -59,17 +59,19 @@ for (let value of iveMembersArray) {
     console.log(value);
 }
 console.log('--------------');
+console.log('While');
 
 /**
  * while
  */
 let number = 0;
 while (number < 10) {
-    number ++;
+    number++;
 }
 
 console.log(number);
 console.log('--------------');
+console.log('Do while');
 
 /**
  * do...while
@@ -78,7 +80,7 @@ console.log('--------------');
 number = 0;
 do {
     number++;
-}while (number < 10);
+} while (number < 10);
 
 console.log(number);
 console.log('--------------');
@@ -93,11 +95,12 @@ for (let i = 0; i < 10; i++) {
     console.log(i);
 }
 console.log('--------------');
+console.log('Break');
 number = 0;
 while (number < 10) {
     if (number === 5) {
         break;
-}
+    }
     number++;
     console.log(number);
 }
@@ -110,11 +113,12 @@ console.log('--------------');
 for (let i = 0; i < 10; i++) {
     if (i === 5) {
         continue;
-}
+    }
     console.log(i);
 }
 
 console.log('--------------');
+console.log('Continue');
 
 number = 0;
 while (number < 10) {
@@ -123,4 +127,5 @@ while (number < 10) {
     if (number === 5) {
         continue;
     }
+    console.log(number);
 }

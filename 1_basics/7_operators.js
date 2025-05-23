@@ -43,6 +43,7 @@ console.log(result, number);
 result = number --;
 console.log(result, number);
 console.log('--------------');
+console.log('숫자 타입이 아닌 타입에 +, -를 사용하면 어떻게 될까?');
 
 /**
  * 숫자 타입이 아닌 타입에 +, -를 사용하면 어떻게 될까?

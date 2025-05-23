@@ -23,6 +23,7 @@ console.log(ive);
 
 const newJeans = '뉴진스';
 console.log(newJeans);
+// newJeans = '채수원'; <- 이건 안됨
 
 /**
  * 선언과 할당

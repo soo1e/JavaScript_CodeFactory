@@ -17,5 +17,8 @@ console.log(name);
 name = '코드팩토리';
 console.log(name);
 
-console.log(yuJin);
+
+// let과 const는 TDZ 때문에 선언 전에 접근 불가 → ReferenceError 발생
+console.log(yuJin); // ReferenceError: Cannot access 'yuJin' before initialization
+
 let yuJin = '안유진';

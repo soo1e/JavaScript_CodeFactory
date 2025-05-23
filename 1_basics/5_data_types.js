@@ -20,11 +20,11 @@
  * */
 
 const age = 32;
-const tempature = -10;
+const temperature = -10;
 const pi = 3.14;
 
 console.log(typeof age);
-console.log(typeof tempature);
+console.log(typeof temperature);
 console.log(typeof pi);
 console.log('--------------');
 
@@ -120,12 +120,12 @@ console.log('--------------');
 const test1 = '1';
 const test2 = '1';
 
-console.log(test1 === test2);
+console.log(test1 === test2); // true
 
 const symbol1 = Symbol('1');
 const symbol2 = Symbol('1');
 
-console.log(symbol1 === symbol2);
+console.log(symbol1 === symbol2); // false
 console.log('--------------');
 
 /**
