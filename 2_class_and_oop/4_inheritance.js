@@ -1,7 +1,8 @@
 /**
- * Inheritance : 객체들 간의 관계를 구축하는 방법이다. 기존 클래스로부터 속성과 동작을 상속받을 수 있다.
+ * Inheritance : 상속! 객체들 간의 관계를 구축하는 방법이다. 기존 클래스로부터 속성과 동작을 상속받을 수 있다.
  */
 
+// Super 클래스, 부모 클래스
 class IdolModel{
     name;
     year;
@@ -12,12 +13,14 @@ class IdolModel{
     }
 }
 
+// 상속 클래스 1
 class FemaleIdolModel extends IdolModel {
     dance() {
         return '여자 아이돌이 춤을 춥니다.'
     }
 }
 
+// 상속 클래스 2
 class MaleIdolModel extends IdolModel {
     sing() {
         return '남자 아이돌이 노래를 부릅니다.'
@@ -36,7 +39,7 @@ console.log(yuJin.name);
 console.log(jiMin.sing());
 console.log(jiMin.name);
 
-// console.log(yuJin.sing()); maleIdolModel의 함수이므로 불가능하다!
+// console.log(yuJin.sing()); maleIdolModel의 함수이므로 불가능!
 
 const cf = new IdolModel('코드팩토리', 1992);
 console.log(cf);
