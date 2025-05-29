@@ -1,5 +1,5 @@
 /**
- * Static Keyword
+ * Static Keyword -> 클래스의 인스턴스가 아닌 클래스 자체에서 호출하는 메서드. : 객체를 만들지 않아도 호출할 수 있음!
  */
 // class IdolModel {
 //     name;
@@ -50,6 +50,7 @@ class IdolModel{
     }
 }
 
+// 객체를 만들기 전에 static을 활용한 factory constructor을 활용해서 yuJin2를 만듦.
 const yuJin2 = IdolModel.fromObject({
     name: '안유진',
     year: 2003,
