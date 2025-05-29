@@ -7,12 +7,15 @@
  * 3) function을 사용해서 객체 생성
  */
 
+// 1번 방법
 const yuJin = {
     name: '안유진',
     year: 2003,
 };
+
 console.log(yuJin);
 
+// 2번 방법
 class IdolModel{
     name;
     year;
@@ -24,7 +27,7 @@ class IdolModel{
 }
 console.log(new IdolModel('안유진', 2003));
 
-// 생성자 함수
+// 3번 방법 : 생성자 함수
 function IdolFunction(name, year){
     this.name = name;
     this.year = year;
