@@ -35,3 +35,5 @@ function IdolFunction(name, year){
 
 const gaEul = new IdolFunction('가을', 2002);
 console.log(gaEul);
+
+// 모두 객체!
