@@ -34,9 +34,11 @@ const yuJin = new IdolModel('안유진', 2003);
 console.log(yuJin);
 console.log(yuJin.nameAndYear);
 
-yuJin.setName = '정지은';
+yuJin.setName = '밖유진';
 console.log(yuJin);
 
+
+// # -> private한 값. : 액세스 못함 -> Getter로만 가져올 수 있다.
 class IdolModel2 {
     #name;
     year;
