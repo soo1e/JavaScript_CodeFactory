@@ -26,4 +26,4 @@ const IdolModelArrow = (name, year)=>{
     this.year = year;
 };
 
-const yuJin3 = new IdolModelArrow('안유진', 2003);
+// const yuJin3 = new IdolModelArrow('안유진', 2003);
