@@ -1,5 +1,5 @@
 /**
- * Immutable Object
+ * Immutable Object 
  */
 const yuJin = {
     name: '안유진',
@@ -32,6 +32,7 @@ console.log(Object.isExtensible(yuJin));
 yuJin['groupName'] = '아이브'; // 확장 방지로 인해 확장이 되지 않는다.
 console.log(yuJin);
 
+// 삭제는 가능하고 추가만 불가능!
 delete yuJin['position'];
 console.log(yuJin);
 
@@ -50,6 +51,7 @@ const yuJin2 = {
         this.year = new Date().getFullYear() - age;
     }
 }
+console.log('-----------------')
 console.log(yuJin2);
 
 console.log(Object.isSealed(yuJin2)); // seal이 되어있는가 확인 -> 기본 값 false
@@ -58,11 +60,15 @@ Object.seal(yuJin2);
 
 console.log(Object.isSealed(yuJin2));
 
+// Seal이기 때문에 추가 불가능
 yuJin2['groupName'] = '아이브';
 console.log(yuJin2);
 
+// 삭제도 불가능
 delete yuJin2['name'];
 console.log(yuJin2);
+
+// Seal을 했을 떄 프로퍼티 어트리뷰트가 수정이 가능할까?
 
 Object.defineProperty(yuJin2, 'name', { // seal을 해도 configurable을 false로 만들기만 하고 나머지는 그대로 가능하다.
     writable: false,
@@ -71,7 +77,6 @@ console.log(Object.getOwnPropertyDescriptor(yuJin2, 'name'));
 
 /**
  * Freezed
- *
  * 읽기 외에 모든 기능을 불가능하게 만든다.
  */
 const yuJin3 = {
@@ -86,6 +91,7 @@ const yuJin3 = {
         this.year = new Date().getFullYear() - age;
     }
 }
+console.log('-----------------')
 console.log(Object.isFrozen(yuJin3));
 
 Object.freeze(yuJin3);
@@ -113,4 +119,6 @@ const yuJin4 = {
 Object.freeze(yuJin4);
 
 console.log(Object.isFrozen(yuJin4));
+
+// 상위 오브젝트를 Freeze했다고 해서 안의 모든 하위 오브젝트가 Freeze되는 것은 아니다.
 console.log(Object.isFrozen(yuJin4['wonYoung']));
