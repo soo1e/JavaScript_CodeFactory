@@ -34,6 +34,7 @@ class IdolModel{
         this.year = year;
     }
 
+    // factory constructor
     static fromObject(object){
         return new IdolModel(
             object.name,
